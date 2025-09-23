@@ -1,0 +1,849 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 130px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(70, 66, 66);
+}
+
+header ul li a:hover {
+    color: skyblue;
+}
+
+/*responsiv nav bar start*/
+header .nav {
+    margin-right: 130px;
+}
+
+.checkbtn {
+    display: none;
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#check {
+    display: none;
+}
+
+/*responsiv nav bar end*/
+
+.hero {
+    width: 100%;
+    background-color: rgb(245, 247, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    font-family: "Poppins", sans-serif;
+    gap: 60px;
+}
+
+.hero .text h1 {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero .text .info {
+    margin-top: -20px;
+    font-weight: 300;
+    color: rgb(82, 80, 80);
+}
+
+.hero .text {
+    margin-left: 135px;
+}
+
+.hero .text {
+    margin-left: 135px;
+}
+
+.hero .banner {
+    margin-right: 150px;
+}
+
+.hero .text a {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right, #7392f0, #80d4ff);
+    padding: 10px 25px;
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+.hero .text a:hover {
+    box-shadow: 2px 2px 20px #80d4ff;
+    transition: all 0.3s;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    gap: 100px;
+}
+
+.about .about-text h4 {
+    margin-top: -110px;
+    font-weight: 500;
+}
+
+.about .about-text h1 {
+    text-transform: uppercase;
+    padding: 15px 0px 20px 0px;
+}
+
+.about .about-img {
+    margin-left: 56px;
+    width: 85%;
+    height: auto;
+}
+
+.about .about-text {
+    margin-right: 130px;
+}
+
+.about .about-text a {
+    color: white;
+    text-decoration: none;
+    line-height: 80px;
+    background: linear-gradient(to right, #7392f0, #80d4ff);
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.about .about-text a:hover {
+    box-shadow: 2px 2px 20px #80d4ff;
+    transition: all 0.3s;
+}
+
+.about .about-text p {
+    color: rgb(82, 80, 80);
+}
+
+/*--servie section start--*/
+
+.service {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service .serviceCon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.service .text {
+    padding-bottom: 100px;
+    width: 670px;
+    margin: 0 auto;
+}
+
+.service .text h1 {
+    padding-top: 100px;
+    font-size: 2.5rem;
+}
+
+.service .serviceCon div {
+    padding: 5px 10px;
+}
+
+.serviceCon div i {
+    font-size: 30px;
+    color: rgb(90, 88, 88);
+}
+
+.serviceCon div h1 {
+    font-size: 20px;
+    color: rgb(73, 69, 69);
+}
+
+.service P {
+    color: rgb(102, 98, 98);
+}
+
+.service .serviceCon div:hover h1 {
+    color: white;
+}
+
+.service .serviceCon div:hover p {
+    color: white;
+}
+
+.service .serviceCon div:hover i {
+    color: white;
+}
+
+.service .serviceCon div:hover {
+    box-shadow: 2px 2px 10px rgb(179, 180, 180);
+    transform: scale(1.05);
+    background-color: rgb(43, 186, 243);
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.reviwe {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(to right, #56a5f5, #66d9ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.reviwe div {
+    text-align: center;
+    padding: 0px 80px;
+    color: white;
+}
+
+.reviwe div h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 10px;
+}
+
+.Portfolio .text3 {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.Portfolio .text3 h1 {
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 10px;
+}
+
+.Portfolio .text3 p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.Portfolio .portfolio-nav {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.Portfolio .portfolio-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.Portfolio .portfolio-nav a {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    transition: all 0.4s;
+}
+
+.Portfolio .portfolio-nav li:first-child a {
+    color: rgb(31, 171, 226);
+}
+
+.Portfolio .portfolio-nav a:hover {
+    color: rgb(31, 171, 226);
+    text-decoration: underline;
+}
+
+.port-image {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding-bottom: 150px;
+}
+
+.port-image div h2 {
+    font-size: 20px;
+    line-height: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.port-image div p {
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: capitalize;
+}
+
+.port-image div {
+    width: 340px;
+    height: 339px;
+    text-align: center;
+    padding: 80px 0px 20px 0px;
+}
+
+.port-image div img {
+    opacity: 0.9;
+}
+
+.port-image div img:hover {
+    opacity: 1;
+}
+
+.port-image div:hover img {
+    box-shadow: 1px 1px 10px rgb(177, 175, 175), -1px -1px 10px rgb(177, 175, 175);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.tableP {
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 250, 252);
+    padding-top: 50px;
+}
+
+.tableP .table-text {
+    text-align: center;
+    line-height: 15px;
+}
+
+.tableP .table-text h1 {
+    color: rgb(0, 108, 231);
+}
+
+.tableP .table-text p {
+    color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 70px;
+}
+
+.tableP .cardlist {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.tableP .cardlist .card1 {
+    text-align: center;
+    background: rgb(235, 233, 233);
+    padding: 70px 30px 0px 30px;
+}
+
+.tableP .cardlist .card1 h1 {
+    font-weight: 600;
+    display: inline;
+    padding: 20px 25px;
+    outline: 30px solid rgb(226, 231, 231);
+    background-color: #c3cad1;
+    border-radius: 50%;
+    line-height: 100px;
+}
+
+.tableP .cardlist .card1 h2 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+}
+
+.tableP .cardlist .card1 p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.tableP .cardlist .card1 h4 {
+    font-size: 30px;
+}
+
+.tableP .cardlist .card1 a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, rgb(77, 77, 252), rgb(88, 197, 240));
+    padding: 10px 70px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    display: none;
+    letter-spacing: 5px;
+}
+
+.tableP .cardlist .card1:hover h4 {
+    display: none;
+}
+
+.tableP .cardlist .card1:hover a {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.tableP .cardlist .card1:hover {
+    background: linear-gradient(rgb(81, 203, 240), #7775e9);
+    transition: all 0.2s ease-in;
+    transform: scale(1.05);
+}
+
+.tableP .cardlist .card1:hover h1 {
+    background-color: #56a5f5;
+    outline: 30px solid rgb(139, 200, 235);
+}
+
+.tableP .cardlist .card1:hover hr {
+    outline: none;
+    border: 1px solid rgb(228, 237, 241);
+    height: -1px;
+}
+
+footer {
+    width: 100%;
+    background-color: #04091f;
+    color: white;
+    margin-top: 150px;
+}
+
+footer .foot {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+footer .foot div h1 {
+    font-size: 18px;
+}
+
+footer .foot div p {
+    font-size: 15px;
+    color: rgb(105, 104, 104);
+}
+
+footer .foot div input {
+    font-size: 15px;
+    padding: 10px 150px 10px 10px;
+    border: none;
+    outline: none;
+}
+
+footer .foot div button {
+    color: white;
+    font-size: 15px;
+    background-color: #127fec;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .foot div button:hover {
+    background-color: #3326f0;
+}
+
+footer .foot div i {
+    padding: 5px;
+}
+
+footer .foot div i:hover {
+    color: #2331f8;
+    transform: scale(1.5);
+}
+
+footer .developer {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .developer a {
+    font-size: 10px;
+    text-decoration: none;
+    padding: 0px 10px;
+    color: white;
+    background-color: #127fec;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+footer .developer p {
+    font-size: 13px;
+}
+
+footer .developer a:hover {
+    background-color: #2331f8;
+}
+
+footer .developer a:active {
+    color: red;
+}
+
+@media (max-width: 768px) {
+
+    /*main work nab bar start*/
+    header {
+        width: 100%;
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    header .logo {
+        margin-left: 20px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    header .nav ul {
+        position: fixed;
+        width: 40%;
+        height: 100vh;
+        background: rgb(156, 218, 243);
+        top: 60px;
+        left: -200%;
+        transition: all 0.4s ease-in-out;
+    }
+
+    header .nav ul {
+        display: block;
+    }
+
+    header .nav ul li {
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    header .nav ul li a {
+        font-size: 15px;
+    }
+
+    header .nav ul li a:hover {
+        color: black;
+        background: white;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /*main work nab bar end*/
+
+    /*Hero section start*/
+    .hero {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero .text {
+        margin: auto 50px;
+    }
+
+    .hero .text h1 {
+        font-size: 40px;
+    }
+
+    .hero .text p {
+        font-size: 13px;
+    }
+
+    .hero .text a {
+        font-size: 14px;
+    }
+
+    .hero .banner {
+        width: 71%;
+        margin: auto 50px;
+    }
+
+    .hero .banner img {
+        width: 300px;
+    }
+
+    /*Hero section end*/
+
+    /*About section start*/
+    .about {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about img {
+        width: 300px;
+        margin: auto 2px;
+    }
+
+    .about .about-text {
+        margin: auto 40px;
+    }
+
+    .about .about-text h1 {
+        font-size: 30px;
+    }
+
+    .about .about-text p {
+        font-size: 13px;
+    }
+
+    .about .about-text a {
+        font-size: 14px;
+    }
+
+    /*About section end*/
+
+    /*Service Section Start*/
+    .service {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .service .text {
+        width: 90%;
+    }
+
+    .service .text h1 {
+        font-size: 25px;
+    }
+
+    .service .text p {
+        font-size: 14px;
+    }
+
+    .service .serviceCon {
+        width: 95%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .serviceCon div h1 {
+        font-size: 15px;
+    }
+
+    .serviceCon div i {
+        font-size: 23px;
+    }
+
+    .serviceCon div p {
+        font-size: 14px;
+    }
+
+    /*Service Section End*/
+
+    /*Reviwe Section Start*/
+    .reviwe {
+        width: 100%;
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .reviwe div h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .reviwe div p {
+        font-size: 15px;
+    }
+
+    /*Reviwe Section End*/
+
+    /*portfolio section Start*/
+    .Portfolio .text3 {
+        width: 90%;
+    }
+
+    .Portfolio .text3 h1 {
+        font-size: 20px;
+    }
+
+    .Portfolio .text3 p {
+        font-size: 14px;
+    }
+
+    .Portfolio .portfolio-nav {
+        width: 90%;
+    }
+
+    .Portfolio .portfolio-nav ul {
+        gap: 15px;
+    }
+
+    .port-image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .port-image div {
+        width: 160px;
+        height: 160px;
+    }
+
+    .port-image div img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .port-image div h2 {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .port-image div p {
+        font-size: 12px;
+    }
+
+    /*portfolio section End*/
+
+    /*price table start*/
+
+    .tableP .table-text {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .tableP .table-text h1 {
+        font-size: 25px;
+    }
+
+    .tableP .table-text p {
+        font-size: 14px;
+    }
+
+    .tableP .cardlist {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        margin: 0 20px;
+        width: 90%;
+    }
+
+    .tableP .cardlist .card1 {
+        padding: 40px 10px 50px 10px;
+        width: 150px;
+        height: 250px;
+    }
+
+    .tableP .cardlist .card1 h1 {
+        font-size: 18px;
+    }
+
+    .tableP .cardlist .card1 h2 {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .tableP .cardlist .card1 h4 {
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+    .tableP .cardlist .card1 p {
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .tableP .cardlist .card1:hover a {
+        font-size: 12px;
+        display: block;
+        margin-top: 5px;
+        padding: 5px 5px;
+        letter-spacing: 2px;
+    }
+
+    /*price table End */
+
+    /*footer Start*/
+    footer .foot {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    footer .foot div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    footer .foot div h1 {
+        font-size: 16px;
+    }
+
+    footer .foot div p {
+        font-size: 13px;
+    }
+
+    footer .foot div i {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    footer .foot div input {
+        font-size: 10px;
+        padding: 8px 100px 8px 10px;
+    }
+
+    footer .foot div button {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+
+    /*footer End*/
+}
