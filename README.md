@@ -21,5 +21,4 @@ It is a simple project for beginners who are just starting their journey in **we
 
 ## 🚀 How to Use
 1. Download or clone this repository  
-   ```bash
   git clone https://github.com/mahafujur80/Portfolio-Web.git
