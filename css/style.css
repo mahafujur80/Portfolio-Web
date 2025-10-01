@@ -1,8 +1,8 @@
-body {
+
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
     font-family: "Poppins", sans-serif;
 }
 
@@ -50,7 +50,7 @@ header .nav {
     font-size: 25px;
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: 20px;
 }
 
 #check {
@@ -244,6 +244,10 @@ header .nav {
     line-height: 10px;
 }
 
+.Portfolio{
+    width: 100%;
+    height:auto;
+}
 .Portfolio .text3 {
     margin: 0 auto;
     width: 700px;
@@ -294,7 +298,7 @@ header .nav {
 }
 
 .port-image {
-    width: 85%;
+    width:92%;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -315,7 +319,8 @@ header .nav {
 }
 
 .port-image div {
-    width: 340px;
+    width: 100%;
+    max-width: 300px;
     height: 339px;
     text-align: center;
     padding: 80px 0px 20px 0px;
@@ -525,7 +530,6 @@ footer .developer a:active {
 }
 
 @media (max-width: 768px) {
-
     /*main work nab bar start*/
     header {
         width: 100%;
@@ -536,7 +540,6 @@ footer .developer a:active {
     header .logo {
         margin-left: 20px;
     }
-
     .checkbtn {
         display: block;
     }
@@ -592,7 +595,8 @@ footer .developer a:active {
     }
 
     .hero .text h1 {
-        font-size: 40px;
+        font-size: 30px;
+        letter-spacing: 3px;
     }
 
     .hero .text p {
@@ -604,12 +608,12 @@ footer .developer a:active {
     }
 
     .hero .banner {
-        width: 71%;
+        width: 75%;
         margin: auto 50px;
     }
 
     .hero .banner img {
-        width: 300px;
+        width: 100%;
     }
 
     /*Hero section end*/
@@ -622,18 +626,26 @@ footer .developer a:active {
         display: flex;
         flex-direction: column;
     }
-
+     .about .about-img{
+        width: 95%;
+         margin:0 auto;
+     }
     .about img {
-        width: 300px;
-        margin: auto 2px;
+        width:100%;
+        margin:0 auto;
     }
 
     .about .about-text {
-        margin: auto 40px;
+        margin: auto 30px;
     }
-
+    .about .about-text h4 {
+        font-size: 20px;
+        padding-top: 20px;
+       line-height: 10px;
+    }
     .about .about-text h1 {
-        font-size: 30px;
+        font-size: 25px;
+      padding: 0px 0px 0px 0px;
     }
 
     .about .about-text p {
@@ -641,27 +653,29 @@ footer .developer a:active {
     }
 
     .about .about-text a {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     /*About section end*/
 
     /*Service Section Start*/
     .service {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
 
     .service .text {
         width: 90%;
+        padding-bottom: 50px;
     }
 
     .service .text h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .service .text p {
-        font-size: 14px;
+        font-size: 13px;
+
     }
 
     .service .serviceCon {
@@ -669,7 +683,7 @@ footer .developer a:active {
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 10px;
     }
 
     .serviceCon div h1 {
@@ -719,6 +733,7 @@ footer .developer a:active {
 
     .Portfolio .portfolio-nav {
         width: 90%;
+        padding-top: 30px;
     }
 
     .Portfolio .portfolio-nav ul {
@@ -728,20 +743,21 @@ footer .developer a:active {
     .port-image {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap:7px;
     }
 
     .port-image div {
-        width: 160px;
+        width: 150px;
         height: 160px;
+        margin: 0 auto;
     }
 
     .port-image div img {
-        width: 160px;
-        height: 160px;
+        width: 100%;
     }
 
     .port-image div h2 {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 15px;
     }
 
@@ -754,52 +770,59 @@ footer .developer a:active {
     /*price table start*/
 
     .tableP .table-text {
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
     }
 
     .tableP .table-text h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .tableP .table-text p {
-        font-size: 14px;
+        font-size: 13px;
     }
+    
+.tableP .cardlist {
+    width:95%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
 
-    .tableP .cardlist {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
-        margin: 0 20px;
-        width: 90%;
-    }
+.tableP .cardlist .card1 {
+    width: 150px;
+    height:auto;
+    margin-bottom: 10px;
+    padding: 15px 5px 0px 5px;
+}
 
-    .tableP .cardlist .card1 {
-        padding: 40px 10px 50px 10px;
-        width: 150px;
-        height: 250px;
-    }
+.tableP .cardlist .card1 h1 {
+    font-size: 13px;
+    padding:10px 10px;
+    outline:15px solid rgb(226, 231, 231);
+    line-height: 50px;
+}
 
-    .tableP .cardlist .card1 h1 {
-        font-size: 18px;
-    }
+.tableP .cardlist .card1 h2 {
+    font-size: 15px;
+    padding-top:0px;
+}
 
-    .tableP .cardlist .card1 h2 {
-        padding: 8px;
-        font-size: 14px;
-    }
+.tableP .cardlist .card1 p {
+    font-size: 10px;
+    line-height:0px;
+}
 
-    .tableP .cardlist .card1 h4 {
-        font-size: 15px;
-        line-height: 0px;
-    }
+.tableP .cardlist .card1 h4 {
+    font-size:13px;
+}
+.tableP .cardlist .card1:hover h1 {
+    outline: 15px solid rgb(139, 200, 235);
+}
 
-    .tableP .cardlist .card1 p {
-        font-size: 12px;
-        line-height: 0px;
-    }
-
-    .tableP .cardlist .card1:hover a {
+.tableP .cardlist .card1:hover a {
         font-size: 12px;
         display: block;
         margin-top: 5px;
